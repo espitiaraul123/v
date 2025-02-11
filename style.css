@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.container .tenor-gif-embed {
+    max-width: 200px;
+}
+
+.container .btn {
+    display: flex;
+    gap: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #111;
+    background: #ffffff;
+    padding: 10px 25px; 
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+    border-radius: 25px;
+}
+
+.rainbow {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d000ff;
+    animation: bgColor 2s infinite linear;
+    margin: 0px;
+  }
+
+@keyframes bgColor {
+    10% {
+      background-color: #a43535;
+    }
+    20% {
+      background-color: #ff7b00;
+    }
+    30% {
+      background-color: #ffff51;
+    }
+    40% {
+      background-color: #a7ff4e;
+    }
+    50% {
+      background-color: #7addfe;
+    }
+    60% {
+      background-color: #6b6bfd;
+    }
+    70% {
+      background-color: #ca61ff;
+    }
+    80% {
+      background-color: #ff54af;
+    }
+    90% {
+      background-color: #d000ff;
+    }
+  }
